@@ -1,5 +1,5 @@
 {
-    "name": "quantaquirk/termwind",
+    "name": "quantaforge/termwind",
     "description": "Its like Tailwind CSS, but for the console.",
     "keywords": ["php", "cli", "package", "console", "css", "style"],
     "license": "proprietary",
@@ -16,9 +16,9 @@
     },
     "require-dev": {
         "ergebnis/phpstan-rules": "^1.0.",
-        "quantaquirk/console": "^1.0.0",
-        "quantaquirk/support": "^1.0.0",
-        "quantaquirk/pint": "^1.0.0",
+        "quantaforge/console": "^1.0.0",
+        "quantaforge/support": "^1.0.0",
+        "quantaforge/pint": "^1.0.0",
         "pestphp/pest": "^1.21.0",
         "pestphp/pest-plugin-mock": "^1.0",
         "phpstan/phpstan": "^1.4.6",
@@ -60,9 +60,9 @@
         ]
     },
     "extra": {
-        "quantaquirk": {
+        "quantaforge": {
             "providers": [
-                "Termwind\\QuantaQuirk\\TermwindServiceProvider"
+                "Termwind\\QuantaForge\\TermwindServiceProvider"
             ]
         }
     }

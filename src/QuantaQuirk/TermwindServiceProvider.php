@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Termwind\QuantaQuirk;
+namespace Termwind\QuantaForge;
 
-use QuantaQuirk\Console\OutputStyle;
-use QuantaQuirk\Support\ServiceProvider;
+use QuantaForge\Console\OutputStyle;
+use QuantaForge\Support\ServiceProvider;
 use Termwind\Termwind;
 
 final class TermwindServiceProvider extends ServiceProvider
